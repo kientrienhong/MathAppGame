@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameYesNoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-160dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/expresion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#764AFE"
+            android:text="0"
+            android:textSize="50sp"></TextView>
+
+        <TextView
+            android:id="@+id/operand"
+            android:textSize="50sp"
+            android:textColor="#764AFE"
+            android:layout_marginLeft="10dp"
+            android:text="+"></TextView>
+
+        <TextView
+            android:id="@id/expresion2"
+            android:text="0"
+            android:textColor="#764AFE"
+            android:layout_marginLeft="10dp"
+            android:textSize="50sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="="
+            android:textColor="#764AFE"
+            android:layout_marginLeft="10dp"
+            android:textSize="50sp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result"
+            android:textSize="50sp"
+            android:textColor="#764AFE"
+            android:layout_marginLeft="10dp"
+            android:text="0"></TextView>
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_height="180dp"
+        android:layout_width="400dp"
+        android:columnCount="2"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/button1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_column="0"
+            android:useDefaultMargins="true"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            android:elevation="10dp"
+            android:padding="18dp"
+            android:background="@drawable/button_answer"
+            android:src="@drawable/ic_check_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/button_answer"
+            android:layout_row="0"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="35dp"
+            android:elevation="10dp"
+            android:padding="18dp"
+            android:src="@drawable/ic_clear_black_24dp"></ImageButton>
+
+    </GridLayout>
+</FrameLayout>
