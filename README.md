@@ -5,7 +5,7 @@
 
 ## Made by  
 + Hong Kien Trien (me)   
-+ Assistant of Nguyen Mau Hieu in IU/UX  
++ Assistant of Nguyen Mau Hieu in UI/UX  
 
 ## Fetures pause, play, restart, resume, save / load score and information.  
 
